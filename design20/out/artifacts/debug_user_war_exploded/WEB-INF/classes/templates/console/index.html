@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Mosaddek">
+    <meta name="keyword" content="FlatLab, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+    <link rel="shortcut icon" href="/img/favicon.png">
+
+    <title>FlatLab - Flat & Responsive Bootstrap Admin Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-reset.css" rel="stylesheet">
+    <!--external css-->
+    <link href="/assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/css/owl.carousel.css" type="text/css">
+    <!-- Custom styles for this template -->
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/style-responsive.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+    <!--[if lt IE 9]-->
+      <script src="/js/html5shiv.js"></script>
+      <script src="/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+  <section id="container" >
+      <!--header start-->
+      <header class="header white-bg">
+            <div class="sidebar-toggle-box">
+                <div data-original-title="Toggle Navigation" data-placement="right" class="icon-reorder tooltips"></div>
+            </div>
+            <!--logo start-->
+            <a href="index.html" class="logo">De<span>bug</span></a>
+            <!--logo end-->
+            <div class="nav notify-row" id="top_menu">
+                <!--  notification start -->
+                <ul class="nav top-menu">
+                    <!-- settings start -->
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <i class="icon-tasks"></i>
+                            <span class="badge bg-success"></span>
+                        </a>
+                        <ul class="dropdown-menu extended tasks-bar">
+                            <div class="notify-arrow notify-arrow-green"></div>
+                            <li>
+                                <p class="green">You have 6 pending tasks</p>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="task-info">
+                                        <div class="desc">Dashboard v1.3</div>
+                                        <div class="percent">40%</div>
+                                    </div>
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% Complete (success)</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="task-info">
+                                        <div class="desc">Database Update</div>
+                                        <div class="percent">60%</div>
+                                    </div>
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (warning)</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="task-info">
+                                        <div class="desc">Iphone Development</div>
+                                        <div class="percent">87%</div>
+                                    </div>
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 87%">
+                                            <span class="sr-only">87% Complete</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="task-info">
+                                        <div class="desc">Mobile App</div>
+                                        <div class="percent">33%</div>
+                                    </div>
+                                    <div class="progress progress-striped">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 33%">
+                                            <span class="sr-only">33% Complete (danger)</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="task-info">
+                                        <div class="desc">Dashboard v1.3</div>
+                                        <div class="percent">45%</div>
+                                    </div>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                                            <span class="sr-only">45% Complete</span>
+                                        </div>
+                                    </div>
+
+                                </a>
+                            </li>
+                            <li class="external">
+                                <a href="#">See All Tasks</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- settings end -->
+                    <!-- inbox dropdown start-->
+                    <li id="header_inbox_bar" class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <i class="icon-envelope-alt"></i>
+                            <span class="badge bg-important"></span>
+                        </a>
+                        <ul class="dropdown-menu extended inbox">
+                            <div class="notify-arrow notify-arrow-red"></div>
+                            <li>
+                                <p class="red">You have 5 new messages</p>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="photo"><img alt="avatar" src="/img/avatar-mini.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Jonathan Smith</span>
+                                    <span class="time">Just now</span>
+                                    </span>
+                                    <span class="message">
+                                        Hello, this is an example msg.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="photo"><img alt="avatar" src="/img/avatar-mini2.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Jhon Doe</span>
+                                    <span class="time">10 mins</span>
+                                    </span>
+                                    <span class="message">
+                                     Hi, Jhon Doe Bhai how are you ?
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="photo"><img alt="avatar" src="/img/avatar-mini3.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Jason Stathum</span>
+                                    <span class="time">3 hrs</span>
+                                    </span>
+                                    <span class="message">
+                                        This is awesome dashboard.
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="photo"><img alt="avatar" src="/img/avatar-mini4.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Jondi Rose</span>
+                                    <span class="time">Just now</span>
+                                    </span>
+                                    <span class="message">
+                                        Hello, this is metrolab
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">See all messages</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- inbox dropdown end -->
+                    <!-- notification dropdown start-->
+                    <li id="header_notification_bar" class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" th:href="@{/user}">
+
+                            <i class="icon-bell-alt"></i>
+                            <span class="badge bg-warning"></span>
+                        </a>
+                        <ul class="dropdown-menu extended notification">
+                            <div class="notify-arrow notify-arrow-yellow"></div>
+                            <li>
+                                <p class="yellow">You have 7 new notifications</p>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="label label-danger"><i class="icon-bolt"></i></span>
+                                    Server #3 overloaded.
+                                    <span class="small italic">34 mins</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="label label-warning"><i class="icon-bell"></i></span>
+                                    Server #10 not respoding.
+                                    <span class="small italic">1 Hours</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="label label-danger"><i class="icon-bolt"></i></span>
+                                    Database overloaded 24%.
+                                    <span class="small italic">4 hrs</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="label label-success"><i class="icon-plus"></i></span>
+                                    New user registered.
+                                    <span class="small italic">Just now</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="label label-info"><i class="icon-bullhorn"></i></span>
+                                    Application error.
+                                    <span class="small italic">10 mins</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">See all notifications</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- notification dropdown end -->
+                </ul>
+                <!--  notification end -->
+            </div>
+            <div class="top-nav ">
+                <!--search & user info start-->
+                <ul class="nav pull-right top-menu">
+                    <li>
+                        <input type="text" class="form-control search" placeholder="Search">
+                    </li>
+                    <!-- user login dropdown start-->
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <img alt="" src="/img/avatar1_small.jpg">
+                            <span class="username">[[${session.loginUser.username}]]</span>
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu extended logout">
+                            <div class="log-arrow-up"></div>
+                            <li><a href="#"><i class=" icon-suitcase"></i>Profile</a></li>
+                            <li><a href="#"><i class="icon-cog"></i> Settings</a></li>
+                            <li><a href="#"><i class="icon-bell-alt"></i> Notification</a></li>
+                            <li><a href="login.html"><i class="icon-key"></i> Log Out</a></li>
+                        </ul>
+                    </li>
+                    <!-- user login dropdown end -->
+                </ul>
+                <!--search & user info end-->
+            </div>
+        </header>
+      <!--header end-->
+
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu" id="nav-accordion">
+                  <li>
+                      <a class="active" th:href="@{/user/console}">
+                          <i class="icon-bug"></i>
+                          <span>上海建筑行业协会用户操作平台 </span>
+                      </a>
+                  </li>
+
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="icon-laptop"></i>
+                          <span>协会页面</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a th:href="@{/user/successReturn}">平台页面</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="icon-book"></i>
+                          <span>账户信息</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a th:href="@{/user/userMessage/}+${session.loginUser.user_id}">账户信息</a></li>
+                          <li><a th:href="@{/user/uploadCompany/}+${session.loginUser.user_id}">企业认证</a></li>
+                          <li><a th:href="@{/user/userProject/}+${session.loginUser.user_id}">账户项目</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="icon-trophy"></i>
+                          <span>奖项申报</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a th:href="@{/user/introductionPrize/}+${session.loginUser.user_id}">奖项介绍</a></li>
+                          <li><a th:href="@{/user/prizeProcess/}+${session.loginUser.user_id}">申报流程</a></li>
+                          <li><a th:href="@{/user/prizeUpload/}+${session.loginUser.user_id}">奖项申报</a></li>
+                          <li><a th:href="@{/user/prizeExamine/}+${session.loginUser.user_id}">审核状态</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="icon-file-text"></i>
+                          <span>项目信息</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a th:href="@{/user/userPro/}+${session.loginUser.user_id}">账户项目</a></li>
+                          <li><a th:href="@{/user/uploadProject/}+${session.loginUser.user_id}">上传项目</a></li>
+                          <li><a th:href="@{/user/prizeProject/}+${session.loginUser.user_id}">获奖项目</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="icon-search"></i>
+                          <span>奖项查询</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a th:href="@{/user/viewPrize/}+${session.loginUser.user_id}">奖项展示</a></li>
+                          <li><a th:href="@{/user/findPrize/}+${session.loginUser.user_id}">奖项查询</a></li>
+                          <li><a th:href="@{/user/}+${session.loginUser.user_id}">精确查询</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class=" icon-lock"></i>
+                          <span>安全</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a th:href="@{/user/lock/}">平台锁</a></li>
+                          <li><a th:href="@{/user/logout}">登出</a></li>
+                      </ul>
+                  </li>
+
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      <!--main content start-->
+      <section id="main-content">
+          <section class="wrapper">
+              <!--state overview start-->
+              <div class="row state-overview">
+                  <div class="col-lg-3 col-sm-6">
+                      <section class="panel">
+                          <div class="symbol terques">
+                              <i class="icon-user"></i>
+                          </div>
+                          <div class="value">
+                              <h1 class="count">
+                                  0
+                              </h1>
+                              <p>平台用户数</p>
+                          </div>
+                      </section>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                      <section class="panel">
+                          <div class="symbol red">
+                              <i class="icon-tags"></i>
+                          </div>
+                          <div class="value">
+                              <h1 class=" count2">
+                                  0
+                              </h1>
+                              <p>平台入驻专家数</p>
+                          </div>
+                      </section>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                      <section class="panel">
+                          <div class="symbol yellow">
+                              <i class="icon-shopping-cart"></i>
+                          </div>
+                          <div class="value">
+                              <h1 class=" count3">
+                                  0
+                              </h1>
+                              <p>平台上传项目数</p>
+                          </div>
+                      </section>
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                      <section class="panel">
+                          <div class="symbol blue">
+                              <i class="icon-bar-chart"></i>
+                          </div>
+                          <div class="value">
+                              <h1 class=" count4">
+                                  0
+                              </h1>
+                              <p>平台获奖项目数</p>
+                          </div>
+                      </section>
+                  </div>
+              </div>
+              <!--state overview end-->
+
+              <div class="row">
+                  <div class="col-lg-8">
+                      <!--custom chart start-->
+                      <div class="border-head">
+                          <h3>2019-2020年2月中国建筑业新订单指数(单位：点)</h3>
+                      </div>
+                      <div class="custom-bar-chart">
+                          <ul class="y-axis">
+                              <li><span>75</span></li>
+                              <li><span>60</span></li>
+                              <li><span>45</span></li>
+                              <li><span>30</span></li>
+                              <li><span>15</span></li>
+                              <li><span>0</span></li>
+                          </ul>
+                          <div class="bar">
+                              <div class="title">2019.3</div>
+                              <div class="value tooltips" data-original-title="57.9" data-toggle="tooltip" data-placement="top">77.2%</div>
+                          </div>
+                          <div class="bar ">
+                              <div class="title">2019.4</div>
+                              <div class="value tooltips" data-original-title="54.6" data-toggle="tooltip" data-placement="top">72.8%</div>
+                          </div>
+                          <div class="bar ">
+                              <div class="title">2019.5</div>
+                              <div class="value tooltips" data-original-title="52.1" data-toggle="tooltip" data-placement="top">69.5%</div>
+                          </div>
+                          <div class="bar ">
+                              <div class="title">2019.6</div>
+                              <div class="value tooltips" data-original-title="56" data-toggle="tooltip" data-placement="top">74.7%</div>
+                          </div>
+                          <div class="bar">
+                              <div class="title">2019.7</div>
+                              <div class="value tooltips" data-original-title="54.7" data-toggle="tooltip" data-placement="top">72.9%</div>
+                          </div>
+                          <div class="bar ">
+                              <div class="title">2019.8</div>
+                              <div class="value tooltips" data-original-title="53.9" data-toggle="tooltip" data-placement="top">71.9%</div>
+                          </div>
+                          <div class="bar">
+                              <div class="title">2019.9</div>
+                              <div class="value tooltips" data-original-title="55.1" data-toggle="tooltip" data-placement="top">73.5%</div>
+                          </div>
+                          <div class="bar ">
+                              <div class="title">2019.10</div>
+                              <div class="value tooltips" data-original-title="54.8" data-toggle="tooltip" data-placement="top">73.1%</div>
+                          </div>
+                          <div class="bar ">
+                              <div class="title">2019.11</div>
+                              <div class="value tooltips" data-original-title="56" data-toggle="tooltip" data-placement="top">74.7%</div>
+                          </div>
+                          <div class="bar ">
+                              <div class="title">2019.12</div>
+                              <div class="value tooltips" data-original-title="52.9" data-toggle="tooltip" data-placement="top">70.5%</div>
+                          </div>
+                          <div class="bar ">
+                              <div class="title">2020.1</div>
+                              <div class="value tooltips" data-original-title="53.8" data-toggle="tooltip" data-placement="top">71.7%</div>
+                          </div>
+                          <div class="bar ">
+                              <div class="title">2020.2</div>
+                              <div class="value tooltips" data-original-title="23.8" data-toggle="tooltip" data-placement="top">31.7%</div>
+                          </div>
+                      </div>
+                      <!--custom chart end-->
+                  </div>
+                  <div class="col-lg-4">
+                      <!--new earning start-->
+                      <div class="panel terques-chart">
+                          <div class="panel-body chart-texture">
+                              <div class="chart">
+                                  <div class="heading">
+                                      <strong>单位：亿元 | 6月19日发布</strong>
+                                  </div>
+                                  <div class="sparkline" data-type="line" data-resize="true" data-height="75" data-width="90%" data-line-width="1" data-line-color="#fff" data-spot-color="#fff" data-fill-color="" data-highlight-line-color="#fff" data-spot-radius="4" data-data="[16366,17568,19428,22582,23105,24100,26575,28132,29870,31359]"></div>
+                              </div>
+                          </div>
+                          <div class="chart-tittle">
+                              <span class="title">2015-2024年中国建筑行总承包商的总产值预测</span>
+                              <span class="value">
+                                  <a href="https://www.chyxx.com/industry/202006/874348.html" >数据来源</a>
+                              </span>
+                          </div>
+                      </div>
+                      <!--new earning end-->
+
+                      <!--total earning start-->
+                      <div class="panel terques-chart">
+                          <div class="panel-body chart-texture">
+                              <div class="chart">
+                                  <div class="heading">
+                                      <strong>单位：亿元 | 6月19日发布</strong>
+                                  </div>
+                                  <div class="sparkline" data-type="line" data-resize="true" data-height="75" data-width="90%" data-line-width="1" data-line-color="#fff" data-spot-color="#fff" data-fill-color="" data-highlight-line-color="#fff" data-spot-radius="4" data-data="[180757,193567,213954,235086,248446,259140,286364,304460,323969,340855]"></div>
+                              </div>
+                          </div>
+                          <div class="chart-tittle">
+                              <span class="title"> 2015-2024年中国建筑行业总产值预测</span>
+                              <span class="value">
+                         						<a href="https://www.chyxx.com/industry/202006/874348.html" >数据来源</a>
+                         				</span>
+                          </div>
+                      </div>
+                      <!--total earning end-->
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-4">
+                      <!--user info table start-->
+                      <section class="panel">
+                          <div class="panel-body">
+                              <a href="#" class="task-thumb">
+                                  <img src="/img/avatar1.jpg" alt="">
+                              </a>
+                              <div class="task-thumb-details">
+                                  <h1><a href="#">Anjelina Joli</a></h1>
+                                  <p>Senior Architect</p>
+                              </div>
+                          </div>
+                          <table class="table table-hover personal-task">
+                              <tbody>
+                                <tr>
+                                    <td>
+                                        <i class=" icon-tasks"></i>
+                                    </td>
+                                    <td>New Task Issued</td>
+                                    <td> 02</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <i class="icon-warning-sign"></i>
+                                    </td>
+                                    <td>Task Pending</td>
+                                    <td> 14</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <i class="icon-envelope"></i>
+                                    </td>
+                                    <td>Inbox</td>
+                                    <td> 45</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <i class=" icon-bell-alt"></i>
+                                    </td>
+                                    <td>New Notification</td>
+                                    <td> 09</td>
+                                </tr>
+                              </tbody>
+                          </table>
+                      </section>
+                      <!--user info table end-->
+                  </div>
+                  <div class="col-lg-8">
+                      <!--work progress start-->
+                      <section class="panel">
+                          <div class="panel-body progress-panel">
+                              <div class="task-progress">
+                                  <h1>Work Progress</h1>
+                                  <p>Anjelina Joli</p>
+                              </div>
+                              <div class="task-option">
+                                  <select class="styled">
+                                      <option>Anjelina Joli</option>
+                                      <option>Tom Crouse</option>
+                                      <option>Jhon Due</option>
+                                  </select>
+                              </div>
+                          </div>
+                          <table class="table table-hover personal-task">
+                              <tbody>
+                              <tr>
+                                  <td>1</td>
+                                  <td>
+                                      Target Sell
+                                  </td>
+                                  <td>
+                                      <span class="badge bg-important">75%</span>
+                                  </td>
+                                  <td>
+                                    <div id="work-progress1"></div>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td>2</td>
+                                  <td>
+                                      Product Delivery
+                                  </td>
+                                  <td>
+                                      <span class="badge bg-success">43%</span>
+                                  </td>
+                                  <td>
+                                      <div id="work-progress2"></div>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td>3</td>
+                                  <td>
+                                      Payment Collection
+                                  </td>
+                                  <td>
+                                      <span class="badge bg-info">67%</span>
+                                  </td>
+                                  <td>
+                                      <div id="work-progress3"></div>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td>4</td>
+                                  <td>
+                                      Work Progress
+                                  </td>
+                                  <td>
+                                      <span class="badge bg-warning">30%</span>
+                                  </td>
+                                  <td>
+                                      <div id="work-progress4"></div>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td>5</td>
+                                  <td>
+                                      Delivery Pending
+                                  </td>
+                                  <td>
+                                      <span class="badge bg-primary">15%</span>
+                                  </td>
+                                  <td>
+                                      <div id="work-progress5"></div>
+                                  </td>
+                              </tr>
+                              </tbody>
+                          </table>
+                      </section>
+                      <!--work progress end-->
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-8">
+                      <!--timeline start-->
+                      <section class="panel">
+                          <div class="panel-body">
+                                  <div class="text-center mbot30">
+                                      <h3 class="timeline-title">时间表</h3>
+                                      <p class="t-info">建筑奖项评选审核时间表</p>
+                                  </div>
+
+                                  <div class="timeline">
+                                      <article class="timeline-item">
+                                          <div class="timeline-desk">
+                                              <div class="panel">
+                                                  <div class="panel-body">
+                                                      <span class="arrow"></span>
+                                                      <span class="timeline-icon red"></span>
+                                                      <span class="timeline-date">08:25 am</span>
+                                                      <h1 class="red">12 July | Sunday</h1>
+                                                      <p>Lorem ipsum dolor sit amet consiquest dio</p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </article>
+                                      <article class="timeline-item alt">
+                                          <div class="timeline-desk">
+                                              <div class="panel">
+                                                  <div class="panel-body">
+                                                      <span class="arrow-alt"></span>
+                                                      <span class="timeline-icon green"></span>
+                                                      <span class="timeline-date">10:00 am</span>
+                                                      <h1 class="green">10 July | Wednesday</h1>
+                                                      <p><a href="#">Jonathan Smith</a> added new milestone <span><a href="#" class="green">ERP</a></span></p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </article>
+                                      <article class="timeline-item">
+                                          <div class="timeline-desk">
+                                              <div class="panel">
+                                                  <div class="panel-body">
+                                                      <span class="arrow"></span>
+                                                      <span class="timeline-icon blue"></span>
+                                                      <span class="timeline-date">11:35 am</span>
+                                                      <h1 class="blue">05 July | Monday</h1>
+                                                      <p><a href="#">Anjelina Joli</a> added new album <span><a href="#" class="blue">PARTY TIME</a></span></p>
+                                                      <div class="album">
+                                                          <a href="#">
+                                                              <img alt="" src="/img/sm-img-1.jpg">
+                                                          </a>
+                                                          <a href="#">
+                                                              <img alt="" src="/img/sm-img-2.jpg">
+                                                          </a>
+                                                          <a href="#">
+                                                              <img alt="" src="/img/sm-img-3.jpg">
+                                                          </a>
+                                                          <a href="#">
+                                                              <img alt="" src="/img/sm-img-1.jpg">
+                                                          </a>
+                                                          <a href="#">
+                                                              <img alt="" src="/img/sm-img-2.jpg">
+                                                          </a>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </article>
+                                      <article class="timeline-item alt">
+                                          <div class="timeline-desk">
+                                              <div class="panel">
+                                                  <div class="panel-body">
+                                                      <span class="arrow-alt"></span>
+                                                      <span class="timeline-icon purple"></span>
+                                                      <span class="timeline-date">3:20 pm</span>
+                                                      <h1 class="purple">29 June | Saturday</h1>
+                                                      <p>Lorem ipsum dolor sit amet consiquest dio</p>
+                                                      <div class="notification">
+                                                          <i class=" icon-exclamation-sign"></i> New task added for <a href="#">Denial Collins</a>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </article>
+                                      <article class="timeline-item">
+                                          <div class="timeline-desk">
+                                              <div class="panel">
+                                                  <div class="panel-body">
+                                                      <span class="arrow"></span>
+                                                      <span class="timeline-icon light-green"></span>
+                                                      <span class="timeline-date">07:49 pm</span>
+                                                      <h1 class="light-green">10 June | Friday</h1>
+                                                      <p><a href="#">Jonatha Smith</a> added new milestone <span><a href="#" class="light-green">prank</a></span> Lorem ipsum dolor sit amet consiquest dio</p>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </article>
+                                  </div>
+
+                                  <div class="clearfix">&nbsp;</div>
+                              </div>
+                      </section>
+                      <!--timeline end-->
+                  </div>
+                  <div class="col-lg-4">
+                      <!--revenue start-->
+                      <section class="panel">
+                          <div class="revenue-head">
+                              <span>
+                                  <i class="icon-bar-chart"></i>
+                              </span>
+                              <h3>Revenue</h3>
+                              <span class="rev-combo pull-right">
+                                 June 2013
+                              </span>
+                          </div>
+                          <div class="panel-body">
+                              <div class="row">
+                                  <div class="col-lg-6 col-sm-6 text-center">
+                                      <div class="easy-pie-chart">
+                                          <div class="percentage" data-percent="35"><span>35</span>%</div>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-6 col-sm-6">
+                                      <div class="chart-info chart-position">
+                                          <span class="increase"></span>
+                                          <span>Revenue Increase</span>
+                                      </div>
+                                      <div class="chart-info">
+                                          <span class="decrease"></span>
+                                          <span>Revenue Decrease</span>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="panel-footer revenue-foot">
+                              <ul>
+                                  <li class="first active">
+                                      <a href="javascript:;">
+                                          <i class="icon-bullseye"></i>
+                                          Graphical
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="javascript:;">
+                                          <i class=" icon-th-large"></i>
+                                          Tabular
+                                      </a>
+                                  </li>
+                                  <li class="last">
+                                      <a href="javascript:;">
+                                          <i class=" icon-align-justify"></i>
+                                          Listing
+                                      </a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </section>
+                      <!--revenue end-->
+                      <!--features carousel start-->
+                      <section class="panel">
+                          <div class="flat-carousal">
+                              <div id="owl-demo" class="owl-carousel owl-theme">
+                                  <div class="item">
+                                      <h1>Flatlab is new model of admin dashboard for happy use</h1>
+                                      <div class="text-center">
+                                          <a href="javascript:;" class="view-all">View All</a>
+                                      </div>
+                                  </div>
+                                  <div class="item">
+                                      <h1>Fully responsive and build with Bootstrap 3.0</h1>
+                                      <div class="text-center">
+                                          <a href="javascript:;" class="view-all">View All</a>
+                                      </div>
+                                  </div>
+                                  <div class="item">
+                                      <h1>Responsive Frontend is free if you get this.</h1>
+                                      <div class="text-center">
+                                          <a href="javascript:;" class="view-all">View All</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="panel-body">
+                              <ul class="ft-link">
+                                  <li class="active">
+                                      <a href="javascript:;">
+                                          <i class="icon-reorder"></i>
+                                          Sales
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="javascript:;">
+                                          <i class=" icon-calendar-empty"></i>
+                                          promo
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="javascript:;">
+                                          <i class=" icon-camera"></i>
+                                          photo
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="javascript:;">
+                                          <i class=" icon-circle"></i>
+                                          other
+                                      </a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </section>
+                      <!--features carousel end-->
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-8">
+
+                  </div>
+              </div>
+
+          </section>
+      </section>
+      <!--main content end-->
+      <!--footer start-->
+      <footer class="site-footer">
+          <div class="text-center">
+              2020 &copy; design by Debug gzx
+              <a href="#" class="go-top">
+                  <i class="icon-angle-up"></i>
+              </a>
+          </div>
+      </footer>
+      <!--footer end-->
+
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery-1.8.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script class="include" type="text/javascript" src="/js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="/js/jquery.scrollTo.min.js"></script>
+    <script src="/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="/js/jquery.sparkline.js" type="text/javascript"></script>
+    <script src="/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js"></script>
+    <script src="/js/owl.carousel.js" ></script>
+    <script src="/js/jquery.customSelect.min.js" ></script>
+    <script src="/js/respond.min.js" ></script>
+
+    <script class="include" type="text/javascript" src="/js/jquery.dcjqaccordion.2.7.js"></script>
+
+    <!--common script for all pages-->
+    <script src="/js/common-scripts.js"></script>
+
+    <!--script for this page-->
+    <script src="/js/sparkline-chart.js"></script>
+    <script src="/js/easy-pie-chart.js"></script>
+      <script th:inline="javascript" type="text/javascript">
+           //<![CDATA[
+          var countUser = 300;
+          var countExpert = 400;
+          var countProject = 500;
+          var countPrize = 600;
+          //通过参数传递
+          countUp(countUser);
+          countUp2(countExpert);
+          countUp3(countProject);
+          countUp4(countPrize);
+
+           //]]>
+      </script>
+      <script src="/js/count.js" type="text/javascript" /></script></section>
+
+      <script>
+
+      //owl carousel
+
+      $(document).ready(function() {
+          $("#owl-demo").owlCarousel({
+              navigation : true,
+              slideSpeed : 300,
+              paginationSpeed : 400,
+              singleItem : true,
+			  autoPlay:true
+
+          });
+      });
+
+      //custom select box
+
+      $(function(){
+          $('select.styled').customSelect();
+      });
+
+  </script></body>
+</html>

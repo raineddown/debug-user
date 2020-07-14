@@ -1,0 +1,24 @@
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/design20?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  main:
+    allow-bean-definition-overriding: true
+
+
+
+mybatis:
+  type-aliases-package: com.design.user.adapter.inbound.dto
+  mapper-locations: classpath:mybatis/*.xml
+
+server:
+  max-http-header-size: 1000KB
+  port: 8080
+
+
+
+

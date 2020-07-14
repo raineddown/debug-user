@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.design.user.adapter.outbound.PrizeMapper">
+
+    <select id="userPrize">
+        select project.name, information, project.type, state, address, images, time,prize.year, prize.match_id from design20.project INNER JOIN prize on project.project_id =
+        <foreach collection="list" item="item" separator=",">
+            #{project_id}
+        </foreach>
+    </select>
+
+    <select id="findAllPrize" parameterType="PrizeDTO">
+        select * from prize
+    </select>
+</mapper>

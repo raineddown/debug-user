@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.design.check.adapter.outbound.DeclareMapper">
+    <update id="checkDeclare" parameterType="Declare">
+        update design20.begin set state = 1 where begin_id = #{begin_id}
+    </update>
+
+    <update id="backDeclare" parameterType="Declare">
+        update design20.begin set state = 0 where begin_id = #{begin_id}
+    </update>
+
+    <select id="findAllId" resultType="Declare">
+        select begin_id, declare_begin, declare_end from begin
+    </select>
+</mapper>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.design.user.adapter.outbound.UserMapper">
+
+    <insert id="addUser" parameterType="UserDTO">
+        insert into design20.user (username,password, qualification, phone, registertime) VALUES (#{username},#{password},0,#{phone},#{registerTime})
+    </insert>
+
+    <update id="userUpload" parameterType="UserDTO">
+        update design20.user set workplace = #{workplace} , company = #{company} where user_id = #{user_id} and password = #{password}
+    </update>
+
+    <select id="findUserById" resultType="UserDTO">
+        select * from design20.user where user_id = #{user_id} and password = #{password}
+    </select>
+
+    <select id="findUserOnlyId" resultType="UserDTO">
+        select * from user where user_id = #{user_id}
+    </select>
+
+    <select id="findUserByPhone" resultType="UserDTO">
+        select * from design20.user where phone = #{phone} and password = #{password}
+    </select>
+
+    <select id="findPhone" resultType="UserDTO">
+        select * from design20.user where phone = #{phone}
+    </select>
+
+    <select id="userMessage" resultType="UserDTO">
+        select user_id, username, workplace, qualification, phone, company from design20.user where user_id = #{user_id}
+    </select>
+
+    <update id="uploadHead" parameterType="UserDTO">
+        update design20.user set img = #{img} where user_id = #{user_id}
+    </update>
+
+    <update id="updateUserMessage" parameterType="UserDTO">
+        update design20.user set username = #{username} where user_id = #{user_id}
+    </update>
+
+</mapper>

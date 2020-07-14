@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Mosaddek">
+    <meta name="keyword" content="FlatLab, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+    <link rel="shortcut icon" href="/img/favicon.png">
+
+    <title>Image Cropping</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-reset.css" rel="stylesheet">
+    <!--external css-->
+    <link href="/assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+
+      <link href="/assets/jcrop/css/jquery.Jcrop.min.css" rel="stylesheet"/>
+      <link href="/css/image-crop.css" rel="stylesheet"/>
+
+    <!-- Custom styles for this template -->
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/style-responsive.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/js/html5shiv.js"></script>
+      <script src="/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+  <section id="container" class="">
+      <!--header start-->
+      <header class="header white-bg">
+          <div class="sidebar-toggle-box">
+              <div data-original-title="Toggle Navigation" data-placement="right" class="icon-reorder tooltips"></div>
+          </div>
+          <!--logo start-->
+          <a th:href="@{/user/console/}+${session.loginUser.user_id}" class="logo" >de<span>bug</span></a>
+          <!--logo end-->
+          <div class="nav notify-row" id="top_menu">
+            <!--  notification start -->
+            <ul class="nav top-menu">
+              <!-- settings start -->
+              <li class="dropdown">
+                  <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                      <i class="icon-tasks"></i>
+                      <span class="badge bg-success"></span>
+                  </a>
+                  <ul class="dropdown-menu extended tasks-bar">
+                      <div class="notify-arrow notify-arrow-green"></div>
+                      <li>
+                          <p class="green">You have 6 pending tasks</p>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <div class="task-info">
+                                  <div class="desc">Dashboard v1.3</div>
+                                  <div class="percent">40%</div>
+                              </div>
+                              <div class="progress progress-striped">
+                                  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                      <span class="sr-only">40% Complete (success)</span>
+                                  </div>
+                              </div>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <div class="task-info">
+                                  <div class="desc">Database Update</div>
+                                  <div class="percent">60%</div>
+                              </div>
+                              <div class="progress progress-striped">
+                                  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                      <span class="sr-only">60% Complete (warning)</span>
+                                  </div>
+                              </div>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <div class="task-info">
+                                  <div class="desc">Iphone Development</div>
+                                  <div class="percent">87%</div>
+                              </div>
+                              <div class="progress progress-striped">
+                                  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 87%">
+                                      <span class="sr-only">87% Complete</span>
+                                  </div>
+                              </div>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <div class="task-info">
+                                  <div class="desc">Mobile App</div>
+                                  <div class="percent">33%</div>
+                              </div>
+                              <div class="progress progress-striped">
+                                  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 33%">
+                                      <span class="sr-only">33% Complete (danger)</span>
+                                  </div>
+                              </div>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <div class="task-info">
+                                  <div class="desc">Dashboard v1.3</div>
+                                  <div class="percent">45%</div>
+                              </div>
+                              <div class="progress progress-striped active">
+                                  <div class="progress-bar"  role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                                      <span class="sr-only">45% Complete</span>
+                                  </div>
+                              </div>
+
+                          </a>
+                      </li>
+                      <li class="external">
+                          <a href="#">See All Tasks</a>
+                      </li>
+                  </ul>
+              </li>
+              <!-- settings end -->
+              <!-- inbox dropdown start-->
+              <li id="header_inbox_bar" class="dropdown">
+                  <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                      <i class="icon-envelope-alt"></i>
+                      <span class="badge bg-important"></span>
+                  </a>
+                  <ul class="dropdown-menu extended inbox">
+                      <div class="notify-arrow notify-arrow-red"></div>
+                      <li>
+                          <p class="red">You have 5 new messages</p>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <span class="photo"><img alt="avatar" src="./img/avatar-mini.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Jonathan Smith</span>
+                                    <span class="time">Just now</span>
+                                    </span>
+                                    <span class="message">
+                                        Hello, this is an example msg.
+                                    </span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <span class="photo"><img alt="avatar" src="./img/avatar-mini2.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Jhon Doe</span>
+                                    <span class="time">10 mins</span>
+                                    </span>
+                                    <span class="message">
+                                     Hi, Jhon Doe Bhai how are you ?
+                                    </span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <span class="photo"><img alt="avatar" src="./img/avatar-mini3.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Jason Stathum</span>
+                                    <span class="time">3 hrs</span>
+                                    </span>
+                                    <span class="message">
+                                        This is awesome dashboard.
+                                    </span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <span class="photo"><img alt="avatar" src="./img/avatar-mini4.jpg"></span>
+                                    <span class="subject">
+                                    <span class="from">Jondi Rose</span>
+                                    <span class="time">Just now</span>
+                                    </span>
+                                    <span class="message">
+                                        Hello, this is metrolab
+                                    </span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">See all messages</a>
+                      </li>
+                  </ul>
+              </li>
+              <!-- inbox dropdown end -->
+              <!-- notification dropdown start-->
+              <li id="header_notification_bar" class="dropdown">
+                  <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+
+                      <i class="icon-bell-alt"></i>
+                      <span class="badge bg-warning"></span>
+                  </a>
+                  <ul class="dropdown-menu extended notification">
+                      <div class="notify-arrow notify-arrow-yellow"></div>
+                      <li>
+                          <p class="yellow">You have 7 new notifications</p>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <span class="label label-danger"><i class="icon-bolt"></i></span>
+                              Server #3 overloaded.
+                              <span class="small italic">34 mins</span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <span class="label label-warning"><i class="icon-bell"></i></span>
+                              Server #10 not respoding.
+                              <span class="small italic">1 Hours</span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <span class="label label-danger"><i class="icon-bolt"></i></span>
+                              Database overloaded 24%.
+                              <span class="small italic">4 hrs</span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <span class="label label-success"><i class="icon-plus"></i></span>
+                              New user registered.
+                              <span class="small italic">Just now</span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">
+                              <span class="label label-info"><i class="icon-bullhorn"></i></span>
+                              Application error.
+                              <span class="small italic">10 mins</span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#">See all notifications</a>
+                      </li>
+                  </ul>
+              </li>
+              <!-- notification dropdown end -->
+          </ul>
+          </div>
+          <div class="top-nav ">
+              <ul class="nav pull-right top-menu">
+                  <li>
+                      <input type="text" class="form-control search" placeholder="Search">
+                  </li>
+                  <!-- user login dropdown start-->
+                  <li class="dropdown">
+                      <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                          <span class="username">[[${session.loginUser.username}]]</span>
+                          <b class="caret"></b>
+                      </a>
+                      <ul class="dropdown-menu extended logout">
+                          <div class="log-arrow-up"></div>
+                          <li><a href="#"><i class=" icon-suitcase"></i>Profile</a></li>
+                          <li><a href="#"><i class="icon-cog"></i> Settings</a></li>
+                          <li><a href="#"><i class="icon-bell-alt"></i> Notification</a></li>
+                          <li><a href="login.html"><i class="icon-key"></i> Log Out</a></li>
+                      </ul>
+                  </li>
+                  <!-- user login dropdown end -->
+              </ul>
+          </div>
+      </header>
+      <!--header end-->
+  <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu" id="nav-accordion">
+                  <li>
+                      <a th:href="@{/user/console/}+${session.loginUser.user_id}">
+                          <i class="icon-bug"></i>
+                          <span>上海建筑行业协会用户操作平台 </span>
+                      </a>
+                  </li>
+
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="icon-laptop"></i>
+                          <span>协会页面</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a th:href="@{/user/successReturn}">平台页面</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="icon-book"></i>
+                          <span>账户信息</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a th:href="@{/user/userMessage/}+${session.loginUser.user_id}">账户信息</a></li>
+                          <li><a th:href="@{/user/uploadCompany/}+${session.loginUser.user_id}">企业认证</a></li>
+                          <li><a th:href="@{/user/userProject/}+${session.loginUser.user_id}">账户项目</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="sub-menu">
+                      <a href="javascript:;" class="active">
+                          <i class="icon-trophy"></i>
+                          <span>奖项申报</span>
+                      </a>
+                      <ul class="sub">
+                          <li class="active"><a th:href="@{/user/introductionPrize/}+${session.loginUser.user_id}">奖项介绍</a></li>
+                          <li><a th:href="@{/user/prizeProcess/}+${session.loginUser.user_id}">申报流程</a></li>
+                          <li><a th:href="@{/user/prizeUpload/}+${session.loginUser.user_id}">奖项申报</a></li>
+                          <li><a th:href="@{/user/prizeExamine/}+${session.loginUser.user_id}">审核状态</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="icon-file-text"></i>
+                          <span>项目信息</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a th:href="@{/user/userPro/}+${session.loginUser.user_id}">账户项目</a></li>
+                          <li><a th:href="@{/user/uploadProject/}+${session.loginUser.user_id}">上传项目</a></li>
+                          <li><a th:href="@{/user/prizeProject/}+${session.loginUser.user_id}">获奖项目</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="icon-search"></i>
+                          <span>奖项查询</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a th:href="@{/user/viewPrize/}+${session.loginUser.user_id}">奖项展示</a></li>
+                          <li><a th:href="@{/user/findPrize/}+${session.loginUser.user_id}">奖项查询</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class=" icon-lock"></i>
+                          <span>安全</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a th:href="@{/user/lock/}+${session.loginUser.user_id}">平台锁</a></li>
+                          <li><a th:href="@{/user/logout}">登出</a></li>
+                      </ul>
+                  </li>
+
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      <!--main content start-->
+      <section id="main-content">
+          <section class="wrapper">
+              <!-- page start-->
+              <section class="panel">
+                  <header class="panel-heading">
+                      普利兹克奖
+                  </header>
+                  <div class="panel-body">
+                      <h4>国际级奖项——普利兹克奖</h4>
+                      <p>
+                          普利兹克奖，有建筑界的诺贝尔奖之称。是1979年由杰伊·普利兹克和妻子辛蒂发起，凯悦基金会所赞助的针对建筑师颁布的奖项。<br>
+                          每年约有五百多名从事建筑设计工作的建筑师被提名，由来自世界各地的知名建筑师及学者组成评审团评出一个个人或组合，以表彰其在建筑设计创作中所表现出的才智、洞察力和献身精神，以及其通过建筑艺术为人类及人工环境方面所作出的杰出贡献，被誉为“建筑学界的诺贝尔奖”。
+                      </p>
+                      <img src="/img/gallery/1.jpg" id="demo1" alt="Jcrop Example" class="img-responsive"/>
+
+                  </div>
+              </section>
+              <section class="panel">
+                  <header class="panel-heading">
+                      梁思成建筑奖
+                  </header>
+                  <div class="panel-body">
+                      <h4>国家级奖项——梁思成建筑奖</h4>
+                      <p>
+                          梁思成建筑奖也称“梁思成奖”，是经国务院批准，由中华人民共和国建设部和中国建筑学会于2000年创立，以中国近代著名的建筑家和教育家梁思成先生命名的中国建筑设计国家奖，并设立梁思成建筑奖专项奖励基金，以表彰、奖励在建筑界做出重大成绩和卓越贡献的杰出建筑师、建筑理论家和建筑教育家  。“梁思成奖”的设立是为了激励中国建筑师的创新精神，繁荣建筑设计创作，提高中国建筑设计水平。<br>
+                          申报条件<br>
+                          第三条梁思成建筑奖候选人应具备下列条件：<br>
+                          （一）致力于促进建筑文化的传承和创新，对建筑文化的发展有重要推动作用；<br>
+                          （二）其建筑设计代表作品能得到国际建筑界的普遍认可并具有良好的社会、经济和环境效益；<br>
+                          （三）其学术成就，对建筑学研究和建筑教育的发展做出突出贡献。<br>
+                          第四条获奖人的产生，采取专家提名与提名委员会提名推荐相结合的方式，并由提名委员会以投票方式产生候选人名单，然后由评选委员会进行评选。具体程序为：<br>
+                          （一）在评选年度的4月份，在中国建筑学会网站及相关媒体发布梁思成建筑奖接受提名的信息。世界范围内，活跃在建筑领域的任何人（除现任梁思成建筑奖提名委员和评选委员），凡符合本办法第三条所述条件的，均可以获得提名。<br>
+                          （二）梁思成建筑奖提名委员会对被提名的及符合本办法第三条规定条件而未被提名的建筑师和建筑学者统一进行推荐；提名委员会对所有被提名者进行投票，获得提名委员会半数以上赞同票的被提名者进入候选人名单。<br>
+                          （三）由中国建筑学会通知候选人提交一份候选人本人背景材料和设计作品资料（内容见评选细则）。<br>
+                          （四）梁思成建筑奖评选委员会通过对入围候选人进行全面评议，并采用无记名投票方式，对候选人进行多轮投票，以每轮减半数的淘汰方式产生获奖者名单及其顺序，最终评选出两名获奖者。<br>
+                          （五）未能获奖的候选者可以成为下一届候选人。梁思成建筑奖的提名最多连续三届，如三届仍未当选者，可相隔两届后再被提名。<br>
+                      </p>
+                      <img src="/img/gallery/2.jpg" id="demo2" alt="Jcrop Example" class="img-responsive"/>
+
+                  </div>
+              </section>
+              <section class="panel">
+                  <header class="panel-heading">
+                      国家优质工程奖
+                  </header>
+                  <div class="panel-body">
+                      <h4>国家级奖项——国家优质工程奖</h4>
+                      <p>
+                          国家优质工程奖设立于1981年，是经国务院确认的我国工程建设领域设立最早，规格最高，跨行业、跨专业的国家级质量奖，对获奖项目中特别优秀的授予国家优质工程金质奖荣誉。主管单位是国家发展和改革委员会。主办单位是中国施工企业管理协会。<br>
+                          国家优质工程奖的评选范围涵盖冶金、有色、煤炭、石油、石化、化工、电力、水利、核工业、林业、航空航天、建材、铁路、公路、市政、水运、通信和房屋建筑等工程建设各个行业（专业），贯穿工程建设各个环节。奖励对象包括建设单位和勘察设计、施工、监理等参与工程建设的相关企业。
+                      </p>
+                      <img src="/img/gallery/3.jpg" id="demo3" alt="Jcrop Example" class="img-responsive"/>
+
+                  </div>
+              </section>
+              <section class="panel">
+                  <header class="panel-heading">
+                      海河杯
+                  </header>
+                  <div class="panel-body">
+                      <h4>省市级奖项——海河杯</h4>
+                      <p>
+                          天津市建设工程市级优质工程定名为“海河杯”奖，是天津市建筑行业评选的市级建设工程质量最高荣誉奖，反映了获奖施工企业较高的管理水平和项目管理人员较高的从业素质，是这些施工企业包括劳务分包企业参与建筑市场竞争，提高企业信誉的重要依据。各区（县）建筑业协会参照《天津市建设工程“海河杯”奖评审办法》的规定成立各区（县）评审专家组；天津市市政公路行业协会参照本办法的规定成立市政工程专业评审专家组，报评委会批准后负责对相应范围内申报的工程进行初评，择优推荐“海河杯”工程。
+                      </p>
+                      <img src="/img/gallery/4.jpg" id="demo4" alt="Jcrop Example" class="img-responsive"/>
+
+                  </div>
+              </section>
+              <section class="panel">
+                  <header class="panel-heading">
+                      西湖杯
+                  </header>
+                  <div class="panel-body">
+                      <h4>地级奖项——西湖杯</h4>
+                      <p>
+                          总则：
+                          1、为加强浙江省杭州市“西湖杯”工程在施工过程中的质量控制，使“西湖杯”工程评审更加规范合理，增加评审过程的透明度，使“西湖杯”工程真正成为浙江省杭州市建设工程在行为规范、管理水平、实体质量和观感质量上的示范，促进浙江省杭州市建设工程质量和管理进一步提高，根据本市实际情况，特制定《杭州市建设工程“西湖杯”质量跟踪评价办法（试行）》。
+                          2、杭州市建设工程质量安全监督总站（以下简称总站）按照全程跟踪、过程否决的原则，负责“西湖杯”创建工程的质量跟踪评价工作。
+                          3、总站在每年申报期满后十个工作日内向市建筑业协会提交“西湖杯”创建工程质量跟踪评价意见，市建筑业协会在此基础上组织专家评选。
+                      </p>
+                      <img src="/img/gallery/5.jpg" id="demo5" alt="Jcrop Example" class="img-responsive"/>
+
+                  </div>
+              </section>
+
+              <!-- page end-->
+          </section>
+      </section>
+      <!--main content end-->
+      <!--footer start-->
+      <footer class="site-footer">
+          <div class="text-center">
+              2013 &copy; FlatLab by VectorLab.More Templates
+              <a href="#" class="go-top">
+                  <i class="icon-angle-up"></i>
+              </a>
+          </div>
+      </footer>
+      <!--footer end-->
+  </section>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script class="include" type="text/javascript" src="/js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="/js/jquery.scrollTo.min.js"></script>
+    <script src="/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="/js/respond.min.js" ></script>
+
+  <script src="/assets/jcrop/js/jquery.color.js"></script>
+  <script src="/assets/jcrop/js/jquery.Jcrop.min.js"></script>
+
+    <!--common script for all pages-->
+    <script src="/js/common-scripts.js"></script>
+
+  <script src="/js/form-image-crop.js"></script>
+  <script>
+      jQuery(document).ready(function() {
+          // initiate layout and plugins
+          FormImageCrop.init();
+      });
+  </script>
+
+
+  </body>
+</html>

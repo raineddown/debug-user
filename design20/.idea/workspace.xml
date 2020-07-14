@@ -1,0 +1,1252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="debug-user:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="706bf3c1-665e-4f7d-9479-8267bd2e8ea1" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/building_admin/target/" />
+    <ignored path="$PROJECT_DIR$/debug_user/target/" />
+    <ignored path="$PROJECT_DIR$/debug-user/target/" />
+    <ignored path="$PROJECT_DIR$/debug-check/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="design20@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="design20@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="design20@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="design20: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="design20@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="design20: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="project: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/outbound/CollectionRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/debug-user/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1911">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/controller/FaceLoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-285">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/service/LoginService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/face/BaiduAIFace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-361">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/Utils/HttpUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-839">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/Utils/Base64Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/setingModel/Setingmodel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-896">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/Utils/GsonUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/Utils/GetToken.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-513">
+              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/debug-user/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/Controller/FaceLoginController.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/resources/templates/console/declare_begin_city.html" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/resources/templates/console/declare_begin_country.html" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/resources/templates/console/declare_begin_province.html" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/resources/templates/console/declare_begin_international.html" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/resources/templates/console/editable_table_notexamined.html" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/inbound/CollectionUseCase.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/face/BaiduAIFace.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/Service/LoginService.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/domain/Declare.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/domain/Expert.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/domain/Prize.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/domain/Project.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/domain/Match.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/resources/mybatis/ExpertMapper.xml" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/adapter/outbound/ExpertMapper.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/outbound/ExpertRepository.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/ExpertServices.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/outbound/PrizeRepository.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/adapter/outbound/PrizeMapper.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/PrizeServices.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/outbound/ProjectRepository.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/adapter/outbound/ProjectMapper.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/inbound/ProjectUseCase.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/ProjectServices.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/adapter/outbound/UserMapper.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/outbound/UserRepository.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/domain/User.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/resources/mybatis/PrizeMapper.xml" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/resources/mybatis/ProjectMapper.xml" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/resources/mybatis/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/domain/Collections.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/adapter/inbound/UserController.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/adapter/outbound/CollectionMapper.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/outbound/CollectionRepository.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/CollectionServices.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/resources/mybatis/CollectionMapper.xml" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/resources/templates/console/gallery.html" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/UserServices.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/resources/mybatis/DeclareMapper.xml" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/DeclareServices.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/adapter/outbound/DeclareMapper.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/outbound/DeclareRepository.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/adapter/inbound/DeclareController.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/adapter/inbound/dto/CollectionDTO.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/utils/UserViewUtils.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/config/UploadConfiguration.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/Utils/GetToken.java" />
+        <option value="$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/service/LoginService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1935" />
+    <option name="height" value="1060" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="design20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design20" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design20" type="462c0819:PsiDirectoryNode" />
+              <item name="debug-check" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design20" type="462c0819:PsiDirectoryNode" />
+              <item name="debug-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design20" type="462c0819:PsiDirectoryNode" />
+              <item name="debug-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design20" type="462c0819:PsiDirectoryNode" />
+              <item name="debug-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design20" type="462c0819:PsiDirectoryNode" />
+              <item name="debug-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design20" type="462c0819:PsiDirectoryNode" />
+              <item name="debug-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design20" type="462c0819:PsiDirectoryNode" />
+              <item name="debug-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design20" type="462c0819:PsiDirectoryNode" />
+              <item name="debug-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="inbound" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design20" type="462c0819:PsiDirectoryNode" />
+              <item name="debug-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="face_login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design20" type="462c0819:PsiDirectoryNode" />
+              <item name="debug-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="face_login" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design20" type="462c0819:PsiDirectoryNode" />
+              <item name="debug-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="face_login" type="462c0819:PsiDirectoryNode" />
+              <item name="face" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design20" type="462c0819:PsiDirectoryNode" />
+              <item name="debug-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="face_login" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design20" type="462c0819:PsiDirectoryNode" />
+              <item name="debug-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="face_login" type="462c0819:PsiDirectoryNode" />
+              <item name="setingModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design20" type="462c0819:PsiDirectoryNode" />
+              <item name="debug-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="face_login" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.5576923" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DIdeaworkplace\design20\debug-user\src\main\resources\static\js" />
+      <recent name="D:\DIdeaworkplace\design20\debug-user\src\main\resources\templates" />
+      <recent name="D:\DIdeaworkplace\design20\debug-user\src\main\java\com\design\user" />
+      <recent name="D:\DIdeaworkplace\design20\debug-user\src\main\resources\templates\console" />
+      <recent name="D:\DIdeaworkplace\design20\debug-check\src\main\resources\mybatis" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.design.user.config" />
+      <recent name="com.design.user.utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DIdeaworkplace\design20\debug-user\src\main\resources\static\css" />
+      <recent name="D:\DIdeaworkplace\design20\debug-user\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.18169399" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserApplication">
+    <configuration name="UserApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="debug-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.design.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.design.user" />
+      <option name="MAIN_CLASS_NAME" value="com.design.user.UserApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="debug-check" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.design.check.CheckApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="debug-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.design.user.UserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.27" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="E:/upload/img">
+          <settings>
+            <option name="CONTEXT_PATH" value="/upload" />
+          </settings>
+        </file>
+        <artifact name="debug-user:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/debug_user_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_design20_4" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63794" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="debug-user:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="E:/upload/img">
+          <settings>
+            <option name="CONTEXT_PATH" value="/upload" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_design20" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63794" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.UserApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.CheckApplication" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.27" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="706bf3c1-665e-4f7d-9479-8267bd2e8ea1" name="Default Changelist" comment="" />
+      <created>1591175077349</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591175077349</updated>
+      <workItem from="1591175080311" duration="1382000" />
+      <workItem from="1591530050293" duration="330000" />
+      <workItem from="1591530595286" duration="365000" />
+      <workItem from="1592052897971" duration="1103000" />
+      <workItem from="1592137468988" duration="6742000" />
+      <workItem from="1592186164824" duration="11977000" />
+      <workItem from="1592380798338" duration="3601000" />
+      <workItem from="1592384457513" duration="6530000" />
+      <workItem from="1592465353857" duration="4250000" />
+      <workItem from="1592488717956" duration="7643000" />
+      <workItem from="1592527075571" duration="25932000" />
+      <workItem from="1592621203957" duration="15357000" />
+      <workItem from="1592703376075" duration="30931000" />
+      <workItem from="1592786244865" duration="7632000" />
+      <workItem from="1592812753453" duration="8015000" />
+      <workItem from="1592881119689" duration="25152000" />
+      <workItem from="1592927846012" duration="864000" />
+      <workItem from="1592963179307" duration="24832000" />
+      <workItem from="1593053810838" duration="21384000" />
+      <workItem from="1593142194754" duration="8570000" />
+      <workItem from="1593155198792" duration="352000" />
+      <workItem from="1593155972779" duration="26126000" />
+      <workItem from="1593187085580" duration="2268000" />
+      <workItem from="1593260527951" duration="423000" />
+      <workItem from="1593260997586" duration="12548000" />
+      <workItem from="1593313981068" duration="33047000" />
+      <workItem from="1593397410450" duration="24359000" />
+      <workItem from="1593493256619" duration="29452000" />
+      <workItem from="1593530240612" duration="3179000" />
+      <workItem from="1593567244298" duration="11964000" />
+      <workItem from="1593587068576" duration="1247000" />
+      <workItem from="1593589485631" duration="12381000" />
+      <workItem from="1593615576198" duration="4296000" />
+      <workItem from="1593620878675" duration="3916000" />
+      <workItem from="1593654706237" duration="3746000" />
+      <workItem from="1593732648884" duration="1445000" />
+      <workItem from="1593848903557" duration="4927000" />
+      <workItem from="1594033326801" duration="659000" />
+      <workItem from="1594120363246" duration="1266000" />
+      <workItem from="1594186765628" duration="1113000" />
+      <workItem from="1594211147704" duration="1085000" />
+      <workItem from="1594212544736" duration="169000" />
+      <workItem from="1594213010731" duration="119000" />
+      <workItem from="1594273038109" duration="3049000" />
+      <workItem from="1594369185672" duration="1852000" />
+      <workItem from="1594447708366" duration="3230000" />
+      <workItem from="1594643398203" duration="1582000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserApplicationTests_contextLoads - 2020.06.22 at 16h 03m 23s.xml">
+      <configuration name="UserApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserApplicationTests_contextLoads - 2020.06.22 at 16h 04m 42s.xml">
+      <configuration name="UserApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserApplicationTests_contextLoads - 2020.06.22 at 16h 27m 23s.xml">
+      <configuration name="UserApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="402392000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32573727" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.4992928" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Docker" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32956153" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.76237625" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3069307" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32956153" />
+      <window_info anchor="bottom" id="Problems" order="16" weight="0.32956153" />
+      <window_info anchor="bottom" id="Application Servers" order="17" show_stripe_button="false" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run Dashboard" order="18" sideWeight="0.49932975" visible="true" weight="0.23055163" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.1689008" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/resources/mybatis/PrizeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/5.2.6.RELEASE/spring-aop-5.2.6.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="432" selection-start-line="432" selection-end-line="432" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/adapter/outbound/DeclareMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/outbound/DeclareRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/resources/templates/console/declare_begin_international.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7296" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/adapter/inbound/CollectionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/adapter/inbound/DeclareController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="77" column="118" selection-start-line="77" selection-start-column="118" selection-end-line="77" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/resources/mybatis/DeclareMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/adapter/inbound/dto/DeclareDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/adapter/inbound/dto/ExpertDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/adapter/inbound/dto/MatchDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-293">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/resources/mybatis/CollectionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/utils/PrizeUploadUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="46" column="50" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/adapter/inbound/dto/CollectionDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-check/src/main/java/com/design/check/CheckApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/adapter/inbound/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2945">
+          <caret line="194" column="18" selection-start-line="194" selection-start-column="18" selection-end-line="194" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/utils/UserViewUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/adapter/inbound/dto/ProjectDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/MatchServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/UserServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/DeclareServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/adapter/inbound/ProjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/resources/mybatis/MatchMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/UserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/resources/static/js/editable-table.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/resources/templates/console/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17480">
+          <caret line="920" column="29" selection-start-line="913" selection-start-column="6" selection-end-line="927" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/resources/static/js/count.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="38" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/config/UploadConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/config/LoginHandlerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/config/MyLocaleResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/outbound/ExpertRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/inbound/DeclareUseCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/ExpertServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="46" selection-start-line="24" selection-start-column="48" selection-end-line="26" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/PrizeServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/ProjectServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/outbound/ProjectRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/CollectionServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-check/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1455" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/application/outbound/CollectionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1911">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/controller/FaceLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/face/BaiduAIFace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/Utils/GetToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/Utils/GsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/Utils/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-839">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/Utils/Base64Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/setingModel/Setingmodel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-896">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-user/src/main/java/com/design/user/face_login/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>debug-user:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5576923" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5576923" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.0_181</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>debug-check</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5576923" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8.0_181</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5576923" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

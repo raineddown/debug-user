@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.design.user.adapter.outbound.ProjectMapper">
+    <insert id="userSubmission" parameterType="ProjectDTO">
+        insert into design20.project (name, information, type, state, address, images, time, user_id) values (#{name}, #{information}, #{type}, 0, #{address},#{images},#{time},#{user_id})
+    </insert>
+
+    <update id="userUpdateProject" parameterType="ProjectDTO">
+        update design20.project set name = #{name},type = #{type},address = #{address},time = #{time} where user_id = #{user_id} and project_id = #{project_id}
+    </update>
+
+    <select id="userAllProject" resultType="ProjectDTO">
+        select * from design20.project where user_id = #{user_id} and state != 3;
+    </select>
+
+    <select id="userNewProject" resultType="ProjectDTO">
+        select * from design20.project where user_id = #{user_id} and state = 0
+    </select>
+
+    <select id="userExamineProject" resultType="ProjectDTO">
+        select * from design20.project where user_id = #{user_id} and  state = 1
+    </select>
+
+    <select id="userFinalProject" resultType="ProjectDTO">
+        select * from design20.project where user_id = #{user_id} and state = 2
+    </select>
+
+</mapper>
