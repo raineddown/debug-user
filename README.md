@@ -1,5 +1,5 @@
 # debug-user
-大三实训项目————建筑行业协会参评平台系统，个人负责的用户操作部分。前后端不分离，前端模板体积较大。
+大三实训项目————建筑行业协会参评平台系统，个人负责的用户操作部分。前后端不分离，前端模板体积较大。涉及技术：spingMVC+springboot+mybatis+Thyemleaf
 <font color=ff0000 size=12 face="宋体">注意：人脸识别接口调用的是百度的API且sk、ak、groupId都已删除。时间关系人脸识别的业务逻辑未对应到相应实体只做了人脸库匹配判断，人脸识别部分包路径：com.design.user.face_login</font>
 
 ## 项目技术介绍
